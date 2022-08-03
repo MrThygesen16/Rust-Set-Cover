@@ -1,0 +1,3 @@
+# Rust Set Cover
+
+Simple repo...

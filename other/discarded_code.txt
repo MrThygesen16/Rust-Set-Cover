@@ -1,0 +1,39 @@
+    // let mut least_groups: u32 = u32::MAX;
+    // let mut least_id: u32 = 0;
+
+    // let mut group_occur: HashMap<u32, u32> = HashMap::new();
+
+    // let mut person_to_group_totals: HashMap<u32, u32> = HashMap::new();
+
+    // for i in 0..person_vec.len() {
+    //     let temp_set: HashSet<u32> = person_vec[i].group_map.iter().copied().collect();
+    //     let person_group = Vec::from_iter(temp_set);
+
+    //     for elem in person_group {
+    //         group_occur.entry(elem) .and_modify(|e| 
+    //             {*e += 1}) 
+    //             .or_insert(1);
+    //     }
+    // }
+
+    // println!("{:?}",group_occur);
+
+
+    // for i in 0..person_vec.len() {
+    //     let temp_set: HashSet<u32> = person_vec[i].group_map.iter().copied().collect();
+    //     let person_group = Vec::from_iter(temp_set);
+
+    //     for elem in person_group {
+
+    //         let val = match group_occur.get(&elem) {
+    //             Some(num) => *num,
+    //             None => 0,
+    //         };
+
+    //         person_to_group_totals.entry(person_vec[i].id) .and_modify(|e| 
+    //             {*e += val}) 
+    //             .or_insert(val);
+    //     }
+    // }
+
+    // println!("{:?}",person_to_group_totals);
