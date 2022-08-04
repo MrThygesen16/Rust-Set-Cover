@@ -149,7 +149,7 @@ fn solver(mut people_list: HashMap<u32, Person>, mut base: (Vec<u32>, HashSet<u3
 
 
 fn main() {
-    let data = read_from_text("tests/test9.txt".to_owned());
+    let data = read_from_text("tests/test10.txt".to_owned());
 
     println!("{:?}", data);
 
